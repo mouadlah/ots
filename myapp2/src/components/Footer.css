@@ -1,0 +1,63 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #004d4d;
+  color: white;
+  padding: 1rem;  /* Réduire la taille du padding */
+  box-sizing: border-box;
+}
+
+footer h3 {
+  margin-bottom: 0.5rem;  /* Réduire la marge */
+  font-size: 1rem;  /* Réduire la taille de la police */
+  font-weight: bold;  /* Mettre en gras */
+}
+
+footer p {
+  margin: 0.25rem 0;  /* Réduire la marge */
+  font-size: 0.875rem;  /* Réduire la taille de la police */
+}
+
+.contact, .follow-us, .resources {
+  flex: 1;
+  text-align: center;
+  font-size: 0.875rem;  /* Réduire la taille de la police */
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.follow-us .social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-logo {
+  font-size: 20px;  /* Réduire la taille de la police */
+  color: white;
+}
+
+.social-logo:hover {
+  color: #ccc;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources a {
+  color: white;
+  text-decoration: none;
+  margin: 0.25rem 0;  /* Réduire la marge */
+  font-size: 0.875rem;  /* Réduire la taille de la police */
+}
+
+.resources a:hover {
+  text-decoration: underline;
+}

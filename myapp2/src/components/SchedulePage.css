@@ -1,0 +1,43 @@
+.schedule-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .schedule-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .schedule-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .schedule-page form label {
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .schedule-page form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .schedule-page form button {
+    padding: 0.5rem 1rem;
+    background-color: #004d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .schedule-page form button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,37 @@
+.blog-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.blog-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.blog-post {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: left;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-post h3 {
+  margin-top: 1rem;
+}
+
+.blog-post p {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,21 @@
+.confirmation-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .confirmation-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .confirmation-page ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .confirmation-page ul li {
+    margin-bottom: 0.5rem;
+  }
+  

@@ -1,0 +1,44 @@
+.support-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .support-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .support-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .support-page form label {
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .support-page form input,
+  .support-page form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .support-page form button {
+    padding: 0.5rem 1rem;
+    background-color: #004d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .support-page form button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  

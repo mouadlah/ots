@@ -1,0 +1,41 @@
+.dashboard-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.dashboard-section {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.dashboard-section img {
+  width: 100%;
+  height: auto;
+}
+
+.metric-card {
+  background-color: #004d4d;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.metric-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
